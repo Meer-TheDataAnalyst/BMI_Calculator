@@ -16,7 +16,5 @@ new_weight = int(weight)
 BMI = new_weight / (new_height**2)
 
 #print the result
-print("your BMI is: ")
-print(int(BMI))
+print(f"your BMI is: {round(BMI)}")
 
-#ued print function one 2 times instead of one because concatenating cant be done between a str data type and a int data type
